@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Blog App</h1>
+
+    
+    <form id="blog-form">
+      <input type="text" id="title" placeholder="Blog Title" required>
+      <input type="text" id="author" placeholder="Author Name" required>
+      <textarea id="content" placeholder="Blog Content" required></textarea>
+      <button type="submit">Submit Blog</button>
+    </form>
+
+    
+    <div class="toggle-section">
+      <button id="toggle-blogs-btn" class="toggle-btn">+ View All Blogs</button>
+    </div>
+
+    
+    <div id="blogs" class="hidden"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
